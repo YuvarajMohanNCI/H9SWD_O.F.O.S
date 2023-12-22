@@ -3,7 +3,7 @@ try{
 $servername = "localhost"; // Server
 $username = "root"; // Username
 
-$password = "FKpCvhbEYQT3DRpf"; // Password (updated)
+$password = ""; // Password 
 $dbname = "onlinefoodphp";  // Database
 
 // Create connection

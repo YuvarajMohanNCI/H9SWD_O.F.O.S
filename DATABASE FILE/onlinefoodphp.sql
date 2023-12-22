@@ -180,7 +180,9 @@ CREATE TABLE `users` (
   `password` varchar(222) NOT NULL,
   `address` text NOT NULL,
   `status` int(222) NOT NULL DEFAULT '1',
-  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `failed_attempts` int(222) NULL,
+  `last_attempt_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
