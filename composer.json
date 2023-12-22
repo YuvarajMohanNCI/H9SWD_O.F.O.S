@@ -1,0 +1,10 @@
+{
+    "name": "vlucas/phpdotenv",
+    "autoload": {
+        "psr-4": {
+            "Vlucas\\Phpdotenv\\": "vendor/"
+        }
+    },
+    "require": {
+    }
+}
